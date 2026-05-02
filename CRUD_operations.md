@@ -5,7 +5,7 @@
 from bookshelf.models import Book
 
 book = Book.objects.create(
-    title="1984",
+    title="1984",s
     author="George Orwell",
     publication_year=1949
 )
